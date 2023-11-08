@@ -1,3 +1,5 @@
+import './TopMenu.css'
+
 const TopMenu = ({ onToggleDarkMode }) => {
     return (
       <div id="top-menu">

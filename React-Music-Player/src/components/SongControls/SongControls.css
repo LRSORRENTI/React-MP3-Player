@@ -1,0 +1,15 @@
+#song-controls {
+    width: 60%;
+    margin: 0% 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    color: #abb3c7;
+  }
+  #song-controls .button {
+    height: 65px;
+    width: 65px;
+  }
+
+  

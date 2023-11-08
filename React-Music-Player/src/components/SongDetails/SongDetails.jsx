@@ -1,3 +1,5 @@
+import './SongDetails.css'
+
 const SongDetails = ({ title, artist }) => {
     return (
       <div id="song-details">
