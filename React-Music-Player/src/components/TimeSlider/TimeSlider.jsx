@@ -1,13 +1,18 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './TimeSlider.css';
 
 const TimeSlider = ({ currentTime, totalTime, onTimeChange }) => {
   const [sliderValue, setSliderValue] = useState(currentTime);
 
+  // Update the slider value when currentTime changes from outside
+  useEffect(() => {
+    setSliderValue(currentTime);
+  }, [currentTime]);
+
   const handleChange = (e) => {
     const newValue = e.target.value;
     setSliderValue(newValue);
-    onTimeChange(newValue); // This function would be passed in props and should handle the time change logic
+    onTimeChange(newValue);
   };
 
   return (
@@ -19,7 +24,7 @@ const TimeSlider = ({ currentTime, totalTime, onTimeChange }) => {
       <input
         type="range"
         min="0"
-        max="100" // This should be the total duration in seconds
+        max="100" // Replace with the total duration in seconds
         value={sliderValue}
         className="slider"
         onChange={handleChange}

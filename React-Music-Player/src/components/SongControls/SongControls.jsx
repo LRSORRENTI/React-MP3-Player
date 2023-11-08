@@ -1,33 +1,20 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPlay, faPause, faBackward, faForward } from '@fortawesome/free-solid-svg-icons';
 import './SongControls.css';
 
 const SongControls = ({ isPlaying, onPlayPause, onSkipNext, onSkipPrevious }) => {
-  // Event handler for play/pause toggle
-  const handlePlayPause = () => {
-    onPlayPause(); // This should be a function passed down from the parent component.
-  };
-
-  // Event handler for skip next
-  const handleSkipNext = () => {
-    onSkipNext(); // This should be a function passed down from the parent component.
-  };
-
-  // Event handler for skip previous
-  const handleSkipPrevious = () => {
-    onSkipPrevious(); // This should be a function passed down from the parent component.
-  };
-
   return (
     <div className="song-controls">
-      <div className="button" onClick={handleSkipPrevious}>
-        <i className="fas fa-backward"></i>
-      </div>
-      <div className="button" onClick={handlePlayPause}>
-        <i className={`fas ${isPlaying ? 'fa-pause' : 'fa-play'}`}></i>
-      </div>
-      <div className="button" onClick={handleSkipNext}>
-        <i className="fas fa-forward"></i>
-      </div>
+      <button className="button" onClick={onSkipPrevious} aria-label="Skip to previous song">
+        <FontAwesomeIcon icon={faBackward} />
+      </button>
+      <button className="button" onClick={onPlayPause} aria-label={isPlaying ? "Pause" : "Play"}>
+        <FontAwesomeIcon icon={isPlaying ? faPause : faPlay} />
+      </button>
+      <button className="button" onClick={onSkipNext} aria-label="Skip to next song">
+        <FontAwesomeIcon icon={faForward} />
+      </button>
     </div>
   );
 };

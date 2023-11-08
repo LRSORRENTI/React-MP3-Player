@@ -1,14 +1,20 @@
+.song-details {
+  /* Styles for the song details container */
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-#song-details {
-    margin-top: 5%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .song-title {
-    font-size: 1.4rem;
-  }
-  .artist {
-    font-size: .8rem;
-    color:  #abb3c7;
-  }
+.song-title {
+  /* Styles for the song title */
+  font-size: 1.4rem;
+  /* Add other styles as needed */
+}
+
+.artist {
+  /* Styles for the artist name */
+  font-size: .8rem;
+  color: #abb3c7;
+  /* Add other styles as needed */
+}

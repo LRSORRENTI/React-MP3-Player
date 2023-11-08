@@ -1,15 +1,24 @@
-#song-controls {
-    width: 60%;
-    margin: 0% 20%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 1rem;
-    color: #abb3c7;
-  }
-  #song-controls .button {
-    height: 65px;
-    width: 65px;
-  }
+.song-controls {
+  width: 60%;
+  margin: 0 auto; /* This centers the controls. Adjust as needed */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  color: #abb3c7;
+}
 
-  
+.song-controls .button {
+  height: 65px;
+  width: 65px;
+  /* Add additional styling for buttons here */
+  /* For example, styling for background, border, and box-shadow */
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* If you need specific styles when the button is hovered over */
+.song-controls .button:hover {
+  /* Styles for hover state */
+}

@@ -1,12 +1,12 @@
 import React from 'react';
 import './TopMenu.css';
-import ToggleButton from './ToggleButton';
+import DarkModeToggle from './DarkModeToggle'; // Updated import
 
-const TopMenu = ({ onToggleDarkMode }) => {
+const TopMenu = ({ onToggleDarkMode, isDarkMode }) => {
   return (
     <div className="top-menu">
       {/* ... other buttons */}
-      <ToggleButton onToggle={onToggleDarkMode} />
+      <DarkModeToggle onToggle={onToggleDarkMode} isDarkMode={isDarkMode} />
       {/* ... other buttons */}
     </div>
   );
