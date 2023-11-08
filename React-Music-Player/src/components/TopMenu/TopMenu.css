@@ -1,14 +1,15 @@
-#top-menu {
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 5%;
-    text-transform: uppercase;
-    font-size: .7rem;
-    letter-spacing: .1rem;
-    color: #abb3c7;
-  }
-  #top-menu i {
-    font-size:  1rem;
-  }
+.top-menu {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5%;
+  text-transform: uppercase;
+  font-size: .7rem;
+  letter-spacing: .1rem;
+  color: #abb3c7;
+}
+
+.top-menu i {
+  font-size: 1rem;
+}

@@ -1,13 +1,15 @@
-import './TopMenu.css'
+import React from 'react';
+import './TopMenu.css';
+import ToggleButton from './ToggleButton';
 
 const TopMenu = ({ onToggleDarkMode }) => {
-    return (
-      <div id="top-menu">
-        {/* ... other buttons */}
-        <ToggleButton onToggle={onToggleDarkMode} />
-        {/* ... other buttons */}
-      </div>
-    );
-  };
+  return (
+    <div className="top-menu">
+      {/* ... other buttons */}
+      <ToggleButton onToggle={onToggleDarkMode} />
+      {/* ... other buttons */}
+    </div>
+  );
+};
 
-  export default TopMenu;
+export default TopMenu;

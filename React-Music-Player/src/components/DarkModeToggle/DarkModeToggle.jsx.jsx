@@ -1,6 +1,6 @@
 import './Model.css';
 
-const Model = ({ onClick, darkMode }) => {
+const DarkModeToggle = ({ onClick, darkMode }) => {
   return (
     <button
       id="model"
@@ -12,4 +12,4 @@ const Model = ({ onClick, darkMode }) => {
   );
 };
 
-export default Model;
+export default DarkModeToggle;

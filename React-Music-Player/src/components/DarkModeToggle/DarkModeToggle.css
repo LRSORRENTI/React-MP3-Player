@@ -1,0 +1,7 @@
+.dark-mode-toggle {
+    background-color: var(--background);
+    border: none;
+    color: #6b728d;
+    /* Add any other styling needed for the button */
+  }
+  
