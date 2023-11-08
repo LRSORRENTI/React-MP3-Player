@@ -4,11 +4,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 10px;
 }
 
 .song-title {
   /* Styles for the song title */
   font-size: 1.4rem;
+  margin-bottom: 10px;
   /* Add other styles as needed */
 }
 

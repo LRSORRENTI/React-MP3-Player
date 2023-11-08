@@ -1,4 +1,7 @@
 import './DarkModeToggle.css';
+import '@fortawesome/fontawesome-svg-core'
+import '@fortawesome/react-fontawesome'
+import '@fortawesome/free-solid-svg-icons'
 
 const DarkModeToggle = ({ onToggleDarkMode, darkMode }) => {
   return (
