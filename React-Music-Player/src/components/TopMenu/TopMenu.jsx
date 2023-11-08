@@ -1,6 +1,7 @@
 import React from 'react';
 import './TopMenu.css';
-import DarkModeToggle from './DarkModeToggle'; // Updated import
+import DarkModeToggle from '../DarkModeToggle/DarkModeToggle.jsx';
+
 
 const TopMenu = ({ onToggleDarkMode, isDarkMode }) => {
   return (
