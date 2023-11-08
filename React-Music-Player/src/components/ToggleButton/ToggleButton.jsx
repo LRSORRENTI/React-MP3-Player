@@ -1,9 +1,9 @@
-const ToggleButton = ({ onToggle }) => {
-    return (
-      <button id="model" className="button" onClick={onToggle}>
-        <i className="bi bi-brightness-high-fill" id="toggleDark"></i>
+const ToggleButton = ({ onToggle, isDarkMode }) => {
+  return (
+      <button className="toggle-button" onClick={onToggle}>
+          <i className={`bi ${isDarkMode ? 'bi-moon' : 'bi-brightness-high-fill'}`}></i>
       </button>
-    );
-  };
+  );
+};
 
-  export default ToggleButton;
+export default ToggleButton;

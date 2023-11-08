@@ -1,24 +1,24 @@
 import React, { useState } from 'react';
 import './SongControls.css';
 
-const SongControls = () => {
-  const [isPlaying, setIsPlaying] = useState(false);
-
+const SongControls = ({ isPlaying, onPlayPause, onSkipNext, onSkipPrevious }) => {
+  // Event handler for play/pause toggle
   const handlePlayPause = () => {
-    // Here you would typically call a music playing service or audio API
-    setIsPlaying(!isPlaying);
+    onPlayPause(); // This should be a function passed down from the parent component.
   };
 
+  // Event handler for skip next
   const handleSkipNext = () => {
-    // Logic to skip to the next song
+    onSkipNext(); // This should be a function passed down from the parent component.
   };
 
+  // Event handler for skip previous
   const handleSkipPrevious = () => {
-    // Logic to skip to the previous song
+    onSkipPrevious(); // This should be a function passed down from the parent component.
   };
 
   return (
-    <div id="song-controls">
+    <div className="song-controls">
       <div className="button" onClick={handleSkipPrevious}>
         <i className="fas fa-backward"></i>
       </div>

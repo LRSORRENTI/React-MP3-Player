@@ -1,9 +1,11 @@
-const ThumbnailBorder = () => {
+import './ThumbnailBorder.css';
+
+const ThumbnailBorder = ({ imageSrc, altText }) => {
     return (
       <div className="thumbnail-border">
-        <div className="song-thumbnail"></div>
+        <img src={imageSrc} alt={altText} className="song-thumbnail" />
       </div>
     );
-  };
-  
-  export default ThumbnailBorder;
+};
+
+export default ThumbnailBorder;
