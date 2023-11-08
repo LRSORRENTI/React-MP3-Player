@@ -1,0 +1,7 @@
+.phone {
+    background-color: var(--background);
+    height: 740px;
+    width: 360px;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 6px 8px, rgba(0, 0, 0, 0.3) 0px 9px 15px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  }

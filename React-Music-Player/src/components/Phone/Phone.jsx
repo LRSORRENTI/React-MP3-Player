@@ -1,3 +1,5 @@
+import './Phone.css'
+
 const Phone = ({ darkMode }) => {
     return (
       <div className={`phone ${darkMode ? 'dark' : ''}`}>

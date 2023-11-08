@@ -1,3 +1,5 @@
+import './Model.css'
+
 const Model = ({ onClick, darkMode }) => {
     return (
       <button id="model" onClick={onClick}>
