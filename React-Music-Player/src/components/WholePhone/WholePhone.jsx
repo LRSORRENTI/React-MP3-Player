@@ -6,6 +6,7 @@ import './WholePhone.css';
 import ThumbnailBorder from '../ThumbnailBorder';
 import SongDetails from '../SongDetails';
 import TimeSlider from '../TimeSlider';
+import SongControls from '../SongControls';
 
 export default function WholePhone() {
     // Create a state variable to handle the theme
@@ -35,15 +36,7 @@ export default function WholePhone() {
                     </div>
                 </div>
                 <ThumbnailBorder/>
-                {/* <div className="thumbnail-border">
-                    <div className="song-thumbnail"></div>
-                </div> */}
                 <SongDetails/>
-                {/* <div id="song-details">
-                    <h1 className="song-title">SUMMER</h1>
-                    <span className="artist">Band ft. Song Artist</span>
-                </div>
-                */}
                 {/* <TimeSlider/> */}
                  <div className="time-slider">
                     <div className="slider-times">
@@ -52,18 +45,7 @@ export default function WholePhone() {
                     </div>
                     <input type="range" min="1" max="100" value="50" className="slider" id="myRange" />
                 </div>
-     
-                <div id="song-controls">
-                    <div className="button">
-                        <FontAwesomeIcon icon={faBackward} />
-                    </div>
-                    <div className="button">
-                        <FontAwesomeIcon icon={faPause} />
-                    </div>
-                    <div className="button">
-                        <FontAwesomeIcon icon={faForward} />
-                    </div>
-                </div>
+                <SongControls/>
             </div>
         </div>
     );
