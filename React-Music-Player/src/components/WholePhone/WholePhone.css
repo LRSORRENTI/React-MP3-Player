@@ -1,14 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Khula:wght@400;600;700&family=Public+Sans:wght@100;300;400;600&display=swap');
-
 body {
   background-color: #a9c4eb;
   font-family: "Public Sans", sans-serif;
   color: #6b728d;
   overflow: hidden;
+  background-image: url('../../assets/music-BG.png');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Scale the image to cover the whole area */
+  background-attachment: fixed; /* Optional: Fix the background image */
 }
+
 .light{
     transition: 1s;
-    --background : linear-gradient(0deg, rgba(255,255,255,.1) 0%, rgba(255,255,255,.6) 50%, rgba(255,255,255,.1) 100%);
+    /* --background : linear-gradient(0deg, rgba(255,255,255,.1) 0%, rgba(255,255,255,.6) 50%, rgba(255,255,255,.1) 100%); */
+    --background: #dbf3f3;
+    
 }
 .dark{
     transition: 1s;
