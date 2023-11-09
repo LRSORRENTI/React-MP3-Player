@@ -144,7 +144,7 @@ box-shadow: inset 2px 2px 2px 0 rgba(104, 139, 255, 0.1), rgba(0, 0, 0, 0.1) 0px
   background: radial-gradient(circle at center, #779bff 0, #6381f9 20%, #d2e1f8 30%, #d2e1f8 50%, #fff 100%);
   box-shadow: inset 2px 2px 2px 0 rgba(104, 139, 255, 0.1), rgba(0, 0, 0, 0.1) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.1) 0px 12px 20px;
 }
-#song-controls {
+.song-controls {
   width: 60%;
   margin: 14% 20%;
   display: flex;
@@ -153,7 +153,7 @@ box-shadow: inset 2px 2px 2px 0 rgba(104, 139, 255, 0.1), rgba(0, 0, 0, 0.1) 0px
   font-size: 1rem;
   color: #abb3c7;
 }
-#song-controls .button {
+.song-controls .button {
   height: 65px;
   width: 65px;
 }

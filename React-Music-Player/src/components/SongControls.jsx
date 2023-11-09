@@ -3,7 +3,7 @@ import { faArrowLeft, faBars, faBackward, faPause, faForward, faMoon } from '@fo
 
 export default function SongControls() {
     return (
-        <div id="song-controls">
+        <div  className="song-controls">
         <div className="button">
             <FontAwesomeIcon icon={faBackward} />
         </div>
