@@ -5,6 +5,7 @@ import { faArrowLeft, faBars, faBackward, faPause, faForward, faMoon } from '@fo
 import './WholePhone.css';
 import ThumbnailBorder from '../ThumbnailBorder';
 import SongDetails from '../SongDetails';
+import TimeSlider from '../TimeSlider';
 
 export default function WholePhone() {
     // Create a state variable to handle the theme
@@ -42,15 +43,16 @@ export default function WholePhone() {
                     <h1 className="song-title">SUMMER</h1>
                     <span className="artist">Band ft. Song Artist</span>
                 </div>
-     */}
-                <div id="time-slider">
+                */}
+                {/* <TimeSlider/> */}
+                 <div className="time-slider">
                     <div className="slider-times">
                         <span>1:21</span>
                         <span>3:46</span>
                     </div>
                     <input type="range" min="1" max="100" value="50" className="slider" id="myRange" />
                 </div>
-    
+     
                 <div id="song-controls">
                     <div className="button">
                         <FontAwesomeIcon icon={faBackward} />

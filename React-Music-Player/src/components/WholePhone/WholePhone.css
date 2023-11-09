@@ -99,9 +99,13 @@ a:hover {
 }
 #time-slider {
   margin: 20% 5%;
+
 }
 .slider-times {
   font-size: .6rem;
+  margin-top: 10px;
+ padding-left: 7px;
+ padding-right: 7px;
   display: flex;
   justify-content: space-between;
   color: #abb3c7;
@@ -142,7 +146,7 @@ box-shadow: inset 2px 2px 2px 0 rgba(104, 139, 255, 0.1), rgba(0, 0, 0, 0.1) 0px
 }
 #song-controls {
   width: 60%;
-  margin: 0% 20%;
+  margin: 14% 20%;
   display: flex;
   justify-content: space-between;
   align-items: center;
