@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Khula:wght@400;600;700&family=Public+Sans:wght@100;300;400;600&display=swap');
 
 body {
-  background-color: #d2e1f8;
+  background-color: #a9c4eb;
   font-family: "Public Sans", sans-serif;
   color: #6b728d;
   overflow: hidden;
@@ -43,7 +43,7 @@ a:hover {
   text-transform: uppercase;
   font-size: .7rem;
   letter-spacing: .1rem;
-  color: #abb3c7;
+  color: #717b94;
 }
 #top-menu i {
   font-size:  1rem;
@@ -157,7 +157,7 @@ box-shadow: inset 2px 2px 2px 0 rgba(104, 139, 255, 0.1), rgba(0, 0, 0, 0.1) 0px
   justify-content: space-between;
   align-items: center;
   font-size: 1rem;
-  color: #abb3c7;
+  color: #717b94;
 }
 .song-controls .button {
   height: 65px;
