@@ -118,7 +118,7 @@ a:hover {
   color: #abb3c7;
 }
 #myRange {
-  background-color: lightgreen;
+  background-color: #C850C0;
   width: 95%;
   margin-left: 8px;
 }
@@ -145,7 +145,7 @@ input[type="range"]::-moz-range-progress {
   outline: none;
   border-radius: 50%;
   border: none;
-  background: radial-gradient(circle at center, #779bff 0, #6381f9 20%, #d2e1f8 30%, #d2e1f8 70%, #fff 100%);
+  background: radial-gradient(circle at center,#C850C0 0, #C850C0 20%, #d2e1f8 30%, #d2e1f8 70%, #fff 100%);
 box-shadow: inset 2px 2px 2px 0 rgba(104, 139, 255, 0.1), rgba(0, 0, 0, 0.1) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.1) 0px 12px 20px;
 }
 .slider::-moz-range-thumb {
