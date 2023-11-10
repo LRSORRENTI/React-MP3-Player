@@ -7,6 +7,7 @@ import ThumbnailBorder from '../ThumbnailBorder';
 import SongDetails from '../SongDetails';
 import TimeSlider from '../TimeSlider';
 import SongControls from '../SongControls';
+import AudioPlayer from '../AudioPlayer';
 
 
 export default function WholePhone() {
@@ -16,6 +17,13 @@ export default function WholePhone() {
     // Toggle the dark mode state
     const toggleDarkMode = () => {
         setDarkMode(!darkMode);
+    };
+
+    // Toggles audio playback:
+    const [isPlaying, setIsPlaying] = useState(false);
+
+    const togglePlayPause = () => {
+        setIsPlaying(!isPlaying);
     };
 
     // Determine the classes for the phone and the icon
@@ -38,7 +46,10 @@ export default function WholePhone() {
                 <ThumbnailBorder/>
                 <SongDetails/>
                 <TimeSlider/>
-                <SongControls/>
+                {/* <SongControls/> */}
+                <SongControls  onTogglePlay={togglePlayPause} isPlaying={isPlaying} />
+                <AudioPlayer src="../src/Audio/RabbitHole-Layton-Giordani.mp3" isPlaying={isPlaying} onTogglePlay={togglePlayPause}/>
+                {/* <SongControls onTogglePlay={togglePlayPause} isPlaying={isPlaying} /> */}
             </div>
         </div>
     );
