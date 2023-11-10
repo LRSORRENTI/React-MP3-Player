@@ -8,6 +8,7 @@ import SongDetails from '../SongDetails';
 import TimeSlider from '../TimeSlider';
 import SongControls from '../SongControls';
 
+
 export default function WholePhone() {
     // Create a state variable to handle the theme
     const [darkMode, setDarkMode] = useState(false);
@@ -20,7 +21,6 @@ export default function WholePhone() {
     // Determine the classes for the phone and the icon
     const phoneClass = `phone ${darkMode ? 'dark' : 'light'}`;
     const iconClass = `bi ${darkMode ? 'bi-moon' : 'bi-brightness-high-fill'}`;
-
     return (
         <div className="container">
             <div className={phoneClass}>
@@ -38,13 +38,6 @@ export default function WholePhone() {
                 <ThumbnailBorder/>
                 <SongDetails/>
                 <TimeSlider/>
-                 {/* <div className="time-slider">
-                    <div className="slider-times">
-                        <span>1:21</span>
-                        <span>3:46</span>
-                    </div>
-                    <input type="range" min="1" max="100" value="50" className="slider" id="myRange" />
-                </div> */}
                 <SongControls/>
             </div>
         </div>
