@@ -1,4 +1,5 @@
 export default function TimeSlider() {
+    return (
      <div className="time-slider">
                     <div className="slider-times">
                         <span>1:21</span>
@@ -6,5 +7,5 @@ export default function TimeSlider() {
                     </div>
                     <input type="range" min="1" max="100" value="50" className="slider" id="myRange" />
                 </div> 
-
+    )
 }
