@@ -12,7 +12,7 @@ import AudioPlayer from '../AudioPlayer';
 
 export default function WholePhone() {
     // Create a state variable to handle the theme
-    const [darkMode, setDarkMode] = useState(false);
+    const [darkMode, setDarkMode] = useState(true);
 
     // Toggle the dark mode state
     const toggleDarkMode = () => {
