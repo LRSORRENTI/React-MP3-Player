@@ -21,6 +21,7 @@ export default function WholePhone() {
 
     // Toggles audio playback:
     const [isPlaying, setIsPlaying] = useState(false);
+    const totalDuration = 238; 
 
     const togglePlayPause = () => {
         setIsPlaying(!isPlaying);
@@ -45,7 +46,7 @@ export default function WholePhone() {
                 </div>
                 <ThumbnailBorder/>
                 <SongDetails/>
-                <TimeSlider/>
+                <TimeSlider  isPlaying={isPlaying} totalDuration={totalDuration} />
                 {/* <SongControls/> */}
                 <SongControls  onTogglePlay={togglePlayPause} isPlaying={isPlaying} />
                 <AudioPlayer src="../src/Audio/RabbitHole-Layton-Giordani.mp3" isPlaying={isPlaying} onTogglePlay={togglePlayPause}/>
