@@ -26,13 +26,13 @@ export default function WholePhone() {
             <div className={phoneClass}>
                 <div id="top-menu">
                     <div className="button">
-                        <FontAwesomeIcon icon={faArrowLeft} />
+                        <FontAwesomeIcon icon={faArrowLeft} className='faArrowLeft' />
                     </div>
                     <button id="mode" className="button" onClick={toggleDarkMode}>
-                        <FontAwesomeIcon icon={faMoon} id="toggleDark" />
+                        <FontAwesomeIcon icon={faMoon} id="toggleDark" className='toggleDark'/>
                     </button>
                     <div className="button">
-                        <FontAwesomeIcon icon={faBars} />
+                        <FontAwesomeIcon icon={faBars} className='faBars' />
                     </div>
                 </div>
                 <ThumbnailBorder/>
