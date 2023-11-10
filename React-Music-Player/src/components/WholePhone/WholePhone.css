@@ -81,16 +81,23 @@ a:hover {
   box-shadow: inset 5px 3px 7px 0 rgba(255, 255, 255, .5),
   6px 4px 8px rgba(200, 80, 192, 0.3), /* Adjusted shadow with #C850C0 color */
   14px 12px 14px rgba(0, 0, 0, 0.1);
-
-
-
 }
+
 .button:hover {
   box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2);
   background-color: #C850C0;
   color: #444444;
   cursor: pointer;
 }
+
+.faPlay {
+  margin-left: 5px;
+}
+
+.faForward {
+  margin-left: 5px;
+}
+
 #mode{
     background-color: var(--background);
     border: none;

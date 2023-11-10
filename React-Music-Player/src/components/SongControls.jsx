@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowLeft, faBars, faBackward, faPause, faForward, faMoon } from '@fortawesome/free-solid-svg-icons';
+import { faArrowLeft, faBars, faBackward, faPause, faForward, faMoon, faPlay} from '@fortawesome/free-solid-svg-icons';
 
 export default function SongControls() {
     return (
@@ -8,10 +8,10 @@ export default function SongControls() {
             <FontAwesomeIcon icon={faBackward} />
         </div>
         <div className="button">
-            <FontAwesomeIcon icon={faPause} />
+            <FontAwesomeIcon icon={faPlay} className='faPlay'/>
         </div>
         <div className="button">
-            <FontAwesomeIcon icon={faForward} />
+            <FontAwesomeIcon icon={faForward} className='faForward' />
         </div>
     </div>
     )
