@@ -34,11 +34,18 @@ export default function TimeSlider({ isPlaying, totalDuration }) {
         return () => clearInterval(interval);
     }, [isPlaying, totalDuration]);
 
+    // Function to format seconds into minutes:seconds
+    const formatTime = (seconds) => {
+        const minutes = Math.floor(seconds / 60);
+        const remainingSeconds = seconds % 60;
+        return `${minutes}:${remainingSeconds.toString().padStart(2, '0')}`;
+    };
+
     return (
         <div className="time-slider">
             <div className="slider-times">
-                <span>0:00</span>
-                <span>3:58</span>
+                <span>{formatTime(sliderValue)}</span>
+                <span>{formatTime(totalDuration)}</span>
             </div>
             <input
                 type="range"
@@ -51,3 +58,4 @@ export default function TimeSlider({ isPlaying, totalDuration }) {
         </div>
     );
 }
+
