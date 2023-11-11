@@ -196,3 +196,73 @@ box-shadow: inset 2px 2px 2px 0 rgba(104, 139, 255, 0.1), rgba(0, 0, 0, 0.1) 0px
   line-height: 2rem;
 }
 
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .song-title, .artist {
+    font-size: 1.2rem;
+  }
+  
+  #top-menu {
+    font-size: .6rem;
+  }
+
+  .button, .song-controls .button {
+    height: 60px;
+    width: 60px;
+  }
+  
+  #top-menu i {
+    font-size: 1.2rem;
+  }
+  
+  .thumbnail-border {
+    margin: 10% auto 0 auto;
+  }
+  
+  #time-slider {
+    margin: 10% 5%;
+  }
+  
+
+}
+
+@media (max-width: 480px) {
+  .phone {
+    height: 550px;
+    width: 280px;
+  }
+  
+  .thumbnail-border {
+    height: 150px;
+    width: 150px;
+  }
+  
+  .song-title, .artist {
+    font-size: 1rem;
+  }
+  
+  #top-menu {
+    font-size: .5rem;
+  }
+
+  .song-controls {
+    width: 80%;
+    margin: 10% 10%;
+  }
+  
+  #myRange {
+    width: 100%;
+    margin-left: 0;
+  }
+  
+  #credit {
+    display: none;
+  }
+  
+
+}
