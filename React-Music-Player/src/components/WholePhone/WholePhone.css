@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Khula:wght@400;600;700&family=Public+Sans:wght@100;300;400;600&display=swap');
 body {
   background-color: #cfadeb;
-  background-image: linear-gradient(#cfadeb, #ffe7e7ce);
+  background-image: linear-gradient(#cfadeb, #ffffffce);
   font-family: "Public Sans", sans-serif;
   color: #df7fd8;
   overflow: hidden;
@@ -41,9 +41,6 @@ a:hover {
   width: 324px;
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.4) 5px 10px 12px, rgba(0, 0, 0, 0.3) 5px 12px 18px -3px, rgba(0, 0, 0, 0.2) 2px -3px 0px inset;
-  /* box-shadow: rgba(0, 0, 0, 0.4) 8px 16px 20px, 
-            rgba(0, 0, 0, 0.3) 8px 20px 30px -6px, 
-            rgba(0, 0, 0, 0.2) 4px -6px 0px ; */
   
 }
 #top-menu {
