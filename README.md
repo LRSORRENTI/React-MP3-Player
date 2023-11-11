@@ -84,3 +84,5 @@
 - Verify shuffle state persists or resets based on user preference.
 
 **Implement volume controls**
+
+- Add volume slider or some control for volume in UI
