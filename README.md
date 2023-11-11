@@ -1,6 +1,6 @@
 # React Music Player
 
-**React-Based Audio Player and Phone Interfac**
+**React-Based Audio Player and Phone Interface**
 
 ## Description
 
