@@ -49,7 +49,7 @@ export default function WholePhone() {
                 <TimeSlider  isPlaying={isPlaying} totalDuration={totalDuration} />
                 {/* <SongControls/> */}
                 <SongControls  onTogglePlay={togglePlayPause} isPlaying={isPlaying} />
-                <AudioPlayer src="../src/Audio/RabbitHole-Layton-Giordani.mp3" isPlaying={isPlaying} onTogglePlay={togglePlayPause}/>
+                <AudioPlayer src="/src/Audio/RabbitHole-Layton-Giordani.mp3" isPlaying={isPlaying} onTogglePlay={togglePlayPause}/>
                 {/* <SongControls onTogglePlay={togglePlayPause} isPlaying={isPlaying} /> */}
             </div>
         </div>
