@@ -2,7 +2,7 @@
 body {
   /* background-color: #9344d3; */
   /* background-image: linear-gradient(#9c53d8, #ffffffce); */
-  background-image: linear-gradient(#8318da, #ffffffce);
+  background-image: linear-gradient( purple, #ffffffce);
   font-family: "Public Sans", sans-serif;
   color: #df7fd8;
   overflow: hidden;
