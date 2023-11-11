@@ -82,3 +82,5 @@
 - Ensure shuffle works in conjunction with play, pause, next, and previous controls.
 
 - Verify shuffle state persists or resets based on user preference.
+
+**Implement volume controls**
