@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Khula:wght@400;600;700&family=Public+Sans:wght@100;300;400;600&display=swap');
 body {
-  background-color: #a9c4eb;
+  background-color: #cfadeb;
+  background-image: linear-gradient(#cfadeb, #ffe7e7ce);
   font-family: "Public Sans", sans-serif;
-  color: #6b728d;
+  color: #df7fd8;
   overflow: hidden;
-  background-image: url('../../assets/music-BG.png');
+  /* background-image: url('../../assets/music-BG.png'); */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Scale the image to cover the whole area */
@@ -39,11 +40,11 @@ a:hover {
   height: 665px;
   width: 324px;
   border-radius: 25px;
-  /* box-shadow: rgba(0, 0, 0, 0.4) 5px 10px 12px, rgba(0, 0, 0, 0.3) 5px 12px 18px -3px, rgba(0, 0, 0, 0.2) 2px -3px 0px inset; */
-  box-shadow: rgba(0, 0, 0, 0.4) 10px 20px 24px, 
-            rgba(0, 0, 0, 0.3) 10px 24px 36px -6px, 
-            rgba(0, 0, 0, 0.2) 4px -6px 0px inset;
-
+  box-shadow: rgba(0, 0, 0, 0.4) 5px 10px 12px, rgba(0, 0, 0, 0.3) 5px 12px 18px -3px, rgba(0, 0, 0, 0.2) 2px -3px 0px inset;
+  /* box-shadow: rgba(0, 0, 0, 0.4) 8px 16px 20px, 
+            rgba(0, 0, 0, 0.3) 8px 20px 30px -6px, 
+            rgba(0, 0, 0, 0.2) 4px -6px 0px ; */
+  
 }
 #top-menu {
   width: 90%;
@@ -82,12 +83,19 @@ a:hover {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  box-shadow: inset 5px 3px 7px 0 rgba(255, 255, 255, .5),
-  6px 4px 8px rgba(200, 80, 192, 0.3), /* Adjusted shadow with #C850C0 color */
-  14px 12px 14px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 3px 1px 5px 0 rgba(255, 255, 255, .5),
+  3px 2px 4px rgba(200, 80, 192, 0.3), /* Adjusted shadow with #C850C0 color */
+  7px 6px 6px rgba(0, 0, 0, 0.1);
 }
 
 .button:hover {
+  box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2);
+  background-color: #C850C0;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.toggle:hover {
   box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2);
   background-color: #C850C0;
   color: #444444;
