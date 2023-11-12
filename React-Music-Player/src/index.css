@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Khula:wght@400;600;700&family=Public+Sans:wght@100;300;400;600&display=swap");
+
+* {
+  margin: 0;
+}
+
+/* .button {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  box-shadow:  inset 7px 5px 9px 0 rgba(255,255,255, .5), rgba(104, 139, 255, 0.1) 14px 8px 17px, rgba(0,0,0, 0.1) 14px 12px 14px
+}
+.button:hover {
+  box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2);
+  background-color: #779bff;
+  color: #fff;
+  cursor: pointer;
+} */
+
+button:hover {
+  cursor: pointer;
+}
