@@ -83,6 +83,7 @@ a:hover {
   box-shadow: inset 3px 1px 5px 0 rgba(255, 255, 255, .5),
   3px 2px 4px rgba(200, 80, 192, 0.3), /* Adjusted shadow with #C850C0 color */
   7px 6px 6px rgba(0, 0, 0, 0.1);
+  -webkit-tap-highlight-color: transparent;
 }
 
 /* .button:hover {

@@ -8,3 +8,13 @@ button:hover,
 .button {
   cursor: pointer;
 }
+
+/* button:focus{
+  outline: none;
+}
+
+button {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-focus-ring-color: transparent;
+  outline: none;
+} */
