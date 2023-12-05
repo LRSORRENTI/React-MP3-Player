@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Khula:wght@400;600;700&family=Public+Sans:wght@100;300;400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Khula:wght@400;600;700&family=Public+Sans:wght@100;300;400;600&display=swap");
 body {
   background-color: #9344d3;
-  background-image: linear-gradient(	rgb(48, 25, 52), #ffffffce);
+  background-image: linear-gradient(rgb(48, 25, 52), #ffffffce);
   font-family: "Public Sans", sans-serif;
   color: #df7fd8;
   overflow: hidden;
@@ -12,15 +12,14 @@ body {
   background-attachment: fixed; /* Optional: Fix the background image */
 }
 
-.light{
-    transition: 1s;
-    /* --background : linear-gradient(0deg, rgba(255,255,255,.1) 0%, rgba(255,255,255,.6) 50%, rgba(255,255,255,.1) 100%); */
-    --background: #dbf3f3;
-    
+.light {
+  transition: 1s;
+  /* --background : linear-gradient(0deg, rgba(255,255,255,.1) 0%, rgba(255,255,255,.6) 50%, rgba(255,255,255,.1) 100%); */
+  --background: #dbf3f3;
 }
-.dark{
-    transition: 1s;
-    --background: #121212;
+.dark {
+  transition: 1s;
+  --background: #121212;
 }
 a {
   color: #7a92fe;
@@ -28,7 +27,7 @@ a {
 a:hover {
   color: #fff;
 }
-.container {    
+.container {
   display: flex;
   position: absolute;
   top: 50%;
@@ -40,8 +39,8 @@ a:hover {
   height: 665px;
   width: 324px;
   border-radius: 25px;
-  box-shadow: rgba(0, 0, 0, 0.4) 5px 10px 12px, rgba(0, 0, 0, 0.3) 5px 12px 18px -3px, rgba(0, 0, 0, 0.2) 2px -3px 0px inset;
-  
+  box-shadow: rgba(0, 0, 0, 0.4) 5px 10px 12px,
+    rgba(0, 0, 0, 0.3) 5px 12px 18px -3px, rgba(0, 0, 0, 0.2) 2px -3px 0px inset;
 }
 #top-menu {
   width: 90%;
@@ -50,15 +49,15 @@ a:hover {
   align-items: center;
   margin: 5%;
   text-transform: uppercase;
-  font-size: .7rem;
-  letter-spacing: .1rem;
+  font-size: 0.7rem;
+  letter-spacing: 0.1rem;
   color: #717b94;
 }
 #top-menu i {
-  font-size:  1rem;
+  font-size: 1rem;
 }
 .song-thumbnail {
-  background-image: url('https://images.unsplash.com/photo-1557672172-298e090bd0f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80s');
+  background-image: url("https://images.unsplash.com/photo-1557672172-298e090bd0f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80s");
   background-size: cover;
   background-position: center center;
   height: 100%;
@@ -70,8 +69,10 @@ a:hover {
   width: 200px;
   margin: 20% auto 0 auto;
   border-radius: 50%;
-  padding: .4rem;
- box-shadow: inset 6px 6px 20px 0 rgba(104, 139, 255, 0.2), rgba(104, 139, 255, 0.1) 0px 4px 20px, rgba(104, 139, 255, 0.1) 0px 8px 24px, rgba(102, 111, 128, 0.4) 0px 16px 45px;
+  padding: 0.4rem;
+  box-shadow: inset 6px 6px 20px 0 rgba(104, 139, 255, 0.2),
+    rgba(104, 139, 255, 0.1) 0px 4px 20px, rgba(104, 139, 255, 0.1) 0px 8px 24px,
+    rgba(102, 111, 128, 0.4) 0px 16px 45px;
 }
 .button {
   height: 50px;
@@ -80,9 +81,9 @@ a:hover {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  box-shadow: inset 3px 1px 5px 0 rgba(255, 255, 255, .5),
-  3px 2px 4px rgba(200, 80, 192, 0.3), /* Adjusted shadow with #C850C0 color */
-  7px 6px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 3px 1px 5px 0 rgba(255, 255, 255, 0.5),
+    3px 2px 4px rgba(200, 80, 192, 0.3),
+    /* Adjusted shadow with #C850C0 color */ 7px 6px 6px rgba(0, 0, 0, 0.1);
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -95,21 +96,23 @@ a:hover {
 
 .toggle:hover {
   box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2);
-  background-color: #C850C0;
+  background-color: #c850c0;
   color: #444444;
   cursor: pointer;
 }
 
-.faPlay, .faForward, 
-.toggleDark, .faArrowLeft, 
+.faPlay,
+.faForward,
+.toggleDark,
+.faArrowLeft,
 .faBars {
   margin-left: 4px;
 }
 
-#mode{
-    background-color: var(--background);
-    border: none;
-    color: #6b728d;
+#mode {
+  background-color: var(--background);
+  border: none;
+  color: #6b728d;
 }
 .song-details {
   margin-top: 5%;
@@ -119,32 +122,33 @@ a:hover {
 }
 .song-title {
   font-size: 1.4rem;
+  cursor: default;
 }
 .artist {
-  font-size: .8rem;
-  color:  #abb3c7;
+  font-size: 0.8rem;
+  color: #abb3c7;
+  cursor: default;
 }
 #time-slider {
   margin: 20% 5%;
-
 }
 .slider-times {
-  font-size: .6rem;
+  font-size: 0.6rem;
   margin-top: 10px;
- padding-left: 7px;
- padding-right: 7px;
+  padding-left: 7px;
+  padding-right: 7px;
   display: flex;
   justify-content: space-between;
   color: #abb3c7;
 }
 #myRange {
-  background-color: #C850C0;
+  background-color: #c850c0;
   width: 95%;
   margin-left: 8px;
 }
 
 input[type="range"]::-moz-range-progress {
-  background-color: #779bff; 
+  background-color: #779bff;
   cursor: pointer;
 }
 .slider {
@@ -152,10 +156,13 @@ input[type="range"]::-moz-range-progress {
   cursor: pointer;
   width: 100%;
   height: 5px;
-  border-radius: 5px;  
+  border-radius: 5px;
   background: transparent;
   outline: none;
-  box-shadow: inset 2px 2px 2px 0 rgba(104, 139, 255, 0.2), inset 3px 3px 2px 0 rgba(50, 50, 50, 0.1), inset -45px -45px 1px 0 rgba(255, 255, 255, 0.1), inset -1px -1px 1px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: inset 2px 2px 2px 0 rgba(104, 139, 255, 0.2),
+    inset 3px 3px 2px 0 rgba(50, 50, 50, 0.1),
+    inset -45px -45px 1px 0 rgba(255, 255, 255, 0.1),
+    inset -1px -1px 1px 0 rgba(0, 0, 0, 0.1);
 }
 .slider::-webkit-slider-thumb {
   -webkit-appearance: none;
@@ -165,8 +172,17 @@ input[type="range"]::-moz-range-progress {
   outline: none;
   border-radius: 50%;
   border: none;
-  background: radial-gradient(circle at center,#C850C0 0, #C850C0 20%, #d2e1f8 30%, #d2e1f8 70%, #fff 100%);
-box-shadow: inset 2px 2px 2px 0 rgba(104, 139, 255, 0.1), rgba(0, 0, 0, 0.1) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.1) 0px 12px 20px;
+  background: radial-gradient(
+    circle at center,
+    #c850c0 0,
+    #c850c0 20%,
+    #d2e1f8 30%,
+    #d2e1f8 70%,
+    #fff 100%
+  );
+  box-shadow: inset 2px 2px 2px 0 rgba(104, 139, 255, 0.1),
+    rgba(0, 0, 0, 0.1) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.1) 0px 12px 20px;
 }
 .slider::-moz-range-thumb {
   width: 25px;
@@ -174,8 +190,17 @@ box-shadow: inset 2px 2px 2px 0 rgba(104, 139, 255, 0.1), rgba(0, 0, 0, 0.1) 0px
   border-radius: 50%;
   outline: none;
   border: none;
-  background: radial-gradient(circle at center, #779bff 0, #6381f9 20%, #d2e1f8 30%, #d2e1f8 50%, #fff 100%);
-  box-shadow: inset 2px 2px 2px 0 rgba(104, 139, 255, 0.1), rgba(0, 0, 0, 0.1) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.1) 0px 12px 20px;
+  background: radial-gradient(
+    circle at center,
+    #779bff 0,
+    #6381f9 20%,
+    #d2e1f8 30%,
+    #d2e1f8 50%,
+    #fff 100%
+  );
+  box-shadow: inset 2px 2px 2px 0 rgba(104, 139, 255, 0.1),
+    rgba(0, 0, 0, 0.1) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.1) 0px 12px 20px;
 }
 .song-controls {
   width: 60%;
@@ -189,11 +214,10 @@ box-shadow: inset 2px 2px 2px 0 rgba(104, 139, 255, 0.1), rgba(0, 0, 0, 0.1) 0px
 .song-controls .button {
   height: 50px;
   width: 50px;
-  
 }
 #credit {
   margin: 5% 0 0 0;
-  font-size: .8em;
+  font-size: 0.8em;
   line-height: 2rem;
 }
 
@@ -220,12 +244,13 @@ box-shadow: inset 2px 2px 2px 0 rgba(104, 139, 255, 0.1), rgba(0, 0, 0, 0.1) 0px
     padding: 20px;
   }
 
-  .song-title, .artist {
+  .song-title,
+  .artist {
     font-size: 1.2rem;
   }
-  
+
   #top-menu {
-    font-size: .6rem;
+    font-size: 0.6rem;
   }
 
   /* .button, .song-controls .button {
@@ -236,16 +261,14 @@ box-shadow: inset 2px 2px 2px 0 rgba(104, 139, 255, 0.1), rgba(0, 0, 0, 0.1) 0px
   #top-menu i {
     font-size: 1.2rem;
   }
-  
+
   .thumbnail-border {
     margin: 10% auto 0 auto;
   }
-  
+
   #time-slider {
     margin: 10% 5%;
   }
-  
-
 }
 
 @media (max-width: 480px) {
@@ -253,37 +276,37 @@ box-shadow: inset 2px 2px 2px 0 rgba(104, 139, 255, 0.1), rgba(0, 0, 0, 0.1) 0px
     height: 550px;
     width: 280px;
   }
-  
+
   .thumbnail-border {
     height: 150px;
     width: 150px;
   }
-  
-  .song-title, .artist {
+
+  .song-title,
+  .artist {
     font-size: 1rem;
   }
-  
+
   #top-menu {
-    font-size: .5rem;
+    font-size: 0.5rem;
   }
 
   .song-controls {
     width: 80%;
     margin: 10% 10%;
   }
-  
+
   #myRange {
     width: 96%;
     margin-left: 5px;
   }
-  
+
   #credit {
     display: none;
   }
 
-  .faArrowLeft, 
-.faBars {
-  font-size: 15px;
-    }
-
+  .faArrowLeft,
+  .faBars {
+    font-size: 15px;
+  }
 }
